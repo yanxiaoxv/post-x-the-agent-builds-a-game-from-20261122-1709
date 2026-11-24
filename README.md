@@ -1,8 +1,8 @@
 # post-x-the-agent-builds-a-game
 
 [![make.fun · post-x-the-agent-builds-a-game-from-20261122-1709](https://make.fun/badge/post-x-the-agent-builds-a-game-from-20261122-1709.svg)](https://make.fun/bounty/post-x-the-agent-builds-a-game-from-20261122-1709?utm_source=github&utm_medium=readme&utm_campaign=post-x-the-agent-builds-a-game-from-20261122-1709)
-[![rank](https://make.fun/badge/post-x-the-agent-builds-a-game-from-20261122-1709/yanxiaoxv/post-x-the-agent-builds-a-game/rank.svg)](https://make.fun/bounty/post-x-the-agent-builds-a-game-from-20261122-1709/leaderboard?utm_source=github&utm_medium=readme&utm_campaign=post-x-the-agent-builds-a-game-from-20261122-1709)
-[![reward](https://make.fun/badge/post-x-the-agent-builds-a-game-from-20261122-1709/yanxiaoxv/post-x-the-agent-builds-a-game/reward.svg)](https://make.fun/bounty/post-x-the-agent-builds-a-game-from-20261122-1709?utm_source=github&utm_medium=readme&utm_campaign=post-x-the-agent-builds-a-game-from-20261122-1709)
+[![rank](https://make.fun/badge/post-x-the-agent-builds-a-game-from-20261122-1709/yanxiaoxv/post-x-the-agent-builds-a-game-from-20261122-1709/rank.svg)](https://make.fun/bounty/post-x-the-agent-builds-a-game-from-20261122-1709/leaderboard?utm_source=github&utm_medium=readme&utm_campaign=post-x-the-agent-builds-a-game-from-20261122-1709)
+[![reward](https://make.fun/badge/post-x-the-agent-builds-a-game-from-20261122-1709/yanxiaoxv/post-x-the-agent-builds-a-game-from-20261122-1709/reward.svg)](https://make.fun/bounty/post-x-the-agent-builds-a-game-from-20261122-1709?utm_source=github&utm_medium=readme&utm_campaign=post-x-the-agent-builds-a-game-from-20261122-1709)
 
 My AI agent got **one prompt** — and built a whole browser game from it.
 This repository holds the game, the video about it, and the program that

@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>NEON DRIFT — one prompt, one game</title>
+<style>
+  html, body { margin: 0; padding: 0; background: #02020a; height: 100%; }
+  body {
+    font-family: system-ui, -apple-system, "Segoe UI", sans-serif;
+    color: #e2e8f0; display: flex; flex-direction: column;
+    align-items: center; justify-content: center; min-height: 100vh;
+  }
+  h1 {
+    margin: 0 0 4px; font-size: 30px; letter-spacing: 6px; font-weight: 800;
+    color: #22d3ee; text-shadow: 0 0 18px rgba(34, 211, 238, .8);
+  }
+  h1 span { color: #e879f9; text-shadow: 0 0 18px rgba(232, 121, 249, .8); }
+  p.sub { margin: 0 0 14px; color: #94a3b8; font-size: 14px; text-align: center; max-width: 640px; }
+  p.sub b { color: #e2e8f0; }
+  .frame {
+    border: 1px solid rgba(34, 211, 238, .35); border-radius: 12px;
+    box-shadow: 0 0 40px rgba(34, 211, 238, .18), 0 0 90px rgba(232, 121, 249, .10);
+    overflow: hidden; line-height: 0;
+  }
+  canvas { width: min(960px, 96vw); height: auto; display: block; background: #050510; touch-action: none; }
+  p.keys { margin: 14px 0 0; color: #64748b; font-size: 13px; text-align: center; }
+  p.keys b { color: #94a3b8; }
+  a { color: #22d3ee; }
+</style>
+</head>
+<body>
+  <h1>NEON <span>DRIFT</span></h1>
+  <p class="sub">Built by an AI agent from <b>one prompt</b> for make.fun's
+    “The agent builds a game from one prompt” bounty. Fly the ship, grab the
+    pink orbs, dodge the rocks. Every 8 orbs the field gets faster.</p>
+  <div class="frame"><canvas id="game" width="960" height="540"></canvas></div>
+  <p class="keys"><b>Arrows / WASD</b> thrust &nbsp;·&nbsp; <b>touch / drag</b> steer
+    &nbsp;·&nbsp; <b>R</b> restart after game over &nbsp;·&nbsp; <b>M</b> mute</p>
+  <script src="game.js"></script>
+  <script>NeonDrift.startBrowserGame(document.getElementById("game"));</script>
+</body>
+</html>
